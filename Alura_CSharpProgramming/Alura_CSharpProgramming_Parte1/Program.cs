@@ -1,4 +1,5 @@
 ﻿using Alura_CSharpProgramming_Parte1.Parte_01;
+using Alura_CSharpProgramming_Parte1.Parte_02;
 using System;
 using System.Collections.Generic;
 
@@ -70,19 +71,19 @@ namespace Alura_CSharpProgramming_Parte1
             {
                 new MenuItem("Tipos de Valor", typeof(_01_TiposDeValor)),
                 new MenuItem("Tipos Inteiros", typeof(_02_Inteiros)),
-                //new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
-                //new MenuItem("Decimal", typeof(Decimal)),
-                //new MenuItem("Booleanos", typeof(Booleanos)),
-                //new MenuItem("Estruturas", typeof(Estruturas)),
-                //new MenuItem("Enumeracoes", typeof(Enumeracoes)),
-                //new MenuItem("Tipos de Refêrencia", typeof(TiposDeReferencia)),
-                //new MenuItem("Classes", typeof(Classes)),
-                //new MenuItem("Interfaces", typeof(Interfaces)),
-                //new MenuItem("Delegates", typeof(Delegates)),
-                //new MenuItem("Objetos", typeof(Objetos)),
-                //new MenuItem("Dinâmicos", typeof(Dinamicos)),
-                //new MenuItem("Strings", typeof(Strings)),
-                //new MenuItem("Metodos", typeof(Metodos)),
+                new MenuItem("Ponto Flututante", typeof(_03PontoFlutuante)),
+                new MenuItem("Decimal", typeof(_04Decimal)),
+                new MenuItem("Booleanos", typeof(_05Booleano)),
+                new MenuItem("Estruturas", typeof(Estruturas)),
+                new MenuItem("Enumeracoes", typeof(_07Enums)),
+                new MenuItem("Tipos de Refêrencia", typeof(_02_01_TiposReferencia)),
+                new MenuItem("Classes", typeof(_02_02Classes)),
+                new MenuItem("Interfaces", typeof(_02_03Interfaces)),
+                new MenuItem("Delegates", typeof(_02_04Delegates)),
+                new MenuItem("Objetos", typeof(_02_05Objetos)),
+                new MenuItem("Dinâmicos", typeof(_02_06Dinamicos)),
+                new MenuItem("Strings", typeof(_02_07Strings)),
+                //new MenuItem("Metodos", typeof(_02_08)),
                 //new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
                 //new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
                 //new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),

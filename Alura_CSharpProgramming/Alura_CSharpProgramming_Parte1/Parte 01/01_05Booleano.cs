@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte1.Parte_01
 {
-    public class _05Booleano : IAulaItem
+    class _05Booleano : IAulaItem
     {
         public void Executar()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte1.Parte_01
 {
-    public class _01_TiposDeValor : IAulaItem
+    class _01_TiposDeValor : IAulaItem
     {
         public void Executar()
         {

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte1.Parte_01
 {
-    public class Estruturas : IAulaItem
+    class Estruturas : IAulaItem
     {
         public void Executar()
         {
