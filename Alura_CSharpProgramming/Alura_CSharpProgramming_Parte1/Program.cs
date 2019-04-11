@@ -1,4 +1,4 @@
-﻿using Alura_CSharpProgramming_Parte1.Aula_01___Tipos_de_Valor;
+﻿using Alura_CSharpProgramming_Parte1.Parte_01;
 using System;
 using System.Collections.Generic;
 
@@ -68,8 +68,8 @@ namespace Alura_CSharpProgramming_Parte1
         {
             return new List<MenuItem>
             {
-                new MenuItem("Tipos de Valor", typeof(TiposDeValor)),
-                //new MenuItem("Tipos Inteiros", typeof(TiposInteiros)),
+                new MenuItem("Tipos de Valor", typeof(_01_TiposDeValor)),
+                new MenuItem("Tipos Inteiros", typeof(_02_Inteiros)),
                 //new MenuItem("Ponto Flututante", typeof(PontoFlutuante)),
                 //new MenuItem("Decimal", typeof(Decimal)),
                 //new MenuItem("Booleanos", typeof(Booleanos)),
