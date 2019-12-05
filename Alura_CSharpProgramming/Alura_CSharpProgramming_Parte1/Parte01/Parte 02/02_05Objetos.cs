@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alura_CSharpProgramming_Parte1.Parte_02
+namespace Alura_CSharpProgramming_Parte1.Parte01.Parte_02
 {
     class _02_05Objetos : IAulaItem
     {

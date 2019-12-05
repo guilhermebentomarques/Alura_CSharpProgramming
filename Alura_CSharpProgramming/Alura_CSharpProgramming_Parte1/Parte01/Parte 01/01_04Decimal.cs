@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alura_CSharpProgramming_Parte1.Parte_01
+namespace Alura_CSharpProgramming_Parte1.Parte01.Parte_01
 {
     class _04Decimal : IAulaItem
     {

@@ -1,5 +1,7 @@
-﻿using Alura_CSharpProgramming_Parte1.Parte_01;
-using Alura_CSharpProgramming_Parte1.Parte_02;
+﻿using Alura_CSharpProgramming_Parte1.Parte01.Parte_01;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_02;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_03;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_04;
 using System;
 using System.Collections.Generic;
 
@@ -83,13 +85,13 @@ namespace Alura_CSharpProgramming_Parte1
                 new MenuItem("Objetos", typeof(_02_05Objetos)),
                 new MenuItem("Dinâmicos", typeof(_02_06Dinamicos)),
                 new MenuItem("Strings", typeof(_02_07Strings)),
-                //new MenuItem("Metodos", typeof(_02_08)),
-                //new MenuItem("Parâmetros Nomeados", typeof(ParametrosNomeados)),
-                //new MenuItem("Parâmetros Opcionais", typeof(ParametrosOpcionais)),
-                //new MenuItem("Métodos de Extensão", typeof(MetodosDeExtensao)),
-                //new MenuItem("Propriedades Indexadas", typeof(PropriedadesIndexadas)),
-                //new MenuItem("Sobrecargas", typeof(Sobrecargas)),
-                //new MenuItem("Métodos Substituidos", typeof(MetodosSubstituidos)),
+                new MenuItem("Metodos", typeof(_03_01Metodos)),
+                new MenuItem("Parâmetros Nomeados", typeof(_03_02ParametroNomeados)),
+                new MenuItem("Parâmetros Opcionais", typeof(_03_03ParametrosOpcionais)),
+                new MenuItem("Métodos de Extensão", typeof(_03_04MetodosDeExtensao)),
+                new MenuItem("Propriedades Indexadas", typeof(_03_05PropriedadesIndexadas)),
+                new MenuItem("Sobrecargas", typeof(_04_01MetodosSobrecarregados)),
+                new MenuItem("Métodos Substituidos", typeof(_04_02MetodosSubstituidos)),
                 //new MenuItem("Boxing", typeof(Boxing)),
                 //new MenuItem("Unboxing", typeof(Unboxing)),
                 //new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
