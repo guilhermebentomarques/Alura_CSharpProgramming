@@ -8,7 +8,10 @@ namespace Alura_CSharpProgramming_Parte1.Parte01.Parte_05
     {
         public void Executar()
         {
+            int numero = 57;
+            object caixa = numero;
 
+            Console.WriteLine(string.Concat("Resposta", numero, true));
         }
     }
 }
