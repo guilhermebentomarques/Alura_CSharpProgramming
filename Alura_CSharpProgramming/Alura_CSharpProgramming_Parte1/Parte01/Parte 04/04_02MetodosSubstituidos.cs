@@ -15,7 +15,14 @@ namespace Alura_CSharpProgramming_Parte1.Parte01.Parte_04
         }
     }
 
-    class Animal
+    interface IAnimal
+    {
+        void Beber();
+        void Comer();
+        void Andar();
+    }
+
+    class Animal : IAnimal
     {
         public String Nome { get; set; }
 

@@ -2,6 +2,8 @@
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_02;
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_03;
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_04;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_05;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_06;
 using System;
 using System.Collections.Generic;
 
@@ -12,6 +14,25 @@ namespace Alura_CSharpProgramming_Parte1
         static IList<MenuItem> menuItems;
         static void Main(string[] args)
         {
+            
+
+            ExpressionTree.Run();
+            Console.ReadKey();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             IAulaItem itemSelecionado;
             menuItems = GetMenuItems();
 
@@ -92,10 +113,10 @@ namespace Alura_CSharpProgramming_Parte1
                 new MenuItem("Propriedades Indexadas", typeof(_03_05PropriedadesIndexadas)),
                 new MenuItem("Sobrecargas", typeof(_04_01MetodosSobrecarregados)),
                 new MenuItem("Métodos Substituidos", typeof(_04_02MetodosSubstituidos)),
-                //new MenuItem("Boxing", typeof(Boxing)),
-                //new MenuItem("Unboxing", typeof(Unboxing)),
-                //new MenuItem("Conversoes Implícitas", typeof(ConversoesImplicitas)),
-                //new MenuItem("Conversoes Explícitas", typeof(ConversoesExplicitas)),
+                new MenuItem("Boxing", typeof(_05_01_Boxing)),
+                new MenuItem("Unboxing", typeof(_05_02_Unboxing)),
+                new MenuItem("Conversoes Implícitas", typeof(_06_01_ConversoesImplicitas)),
+                new MenuItem("Conversoes Explícitas", typeof(_06_02_ConversoesExplicitas)),
                 //new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
                 //new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
                 //new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
