@@ -22,6 +22,24 @@ namespace Alura_CSharpProgramming_Parte3
             };
             ((IEmployee)Employee).GerarCracha();
             ((IOnDuty)Employee).GerarCracha();
+
+            Customer customer = new Customer
+            {
+                CPF = "789.456.123-99",
+                DataNascimento = new DateTime(1980, 1, 1),
+                Nome = "Maria de Souza",
+                DataUltimaCompra = new DateTime(2018, 1, 1),
+                ValorUltimaCompra = 200
+            };
+
+            Console.WriteLine(customer);
+
+            Customer person = new Customer
+            {
+                CPF = "789.456.123-99",
+                DataNascimento = new DateTime(1980, 1, 1),
+                Nome = "Maria de Souza",
+            };
         }
     }
 
@@ -48,16 +66,12 @@ namespace Alura_CSharpProgramming_Parte3
         void GerarCracha();
     }
 
-    class Employee : IEmployee, IOnDuty
+    class Employee : Person, IEmployee, IOnDuty
     {
         public Employee(decimal salario)
         {
             this.Salario = salario;
         }
-
-        public string CPF { get; set; }
-        public string Nome { get; set; }
-        public DateTime DataNascimento { get; set; }
 
         public event EventHandler CrachaGerado;
         void IEmployee.GerarCracha()
@@ -75,5 +89,33 @@ namespace Alura_CSharpProgramming_Parte3
         {
 
         }
+    }
+
+    //class CustomerSon : Customer
+    //{
+
+    //}
+
+    //class CustomerGrandSon : CustomerSon
+    //{
+
+    //}
+
+    sealed class Customer : Person //não pode ser herdada
+    {
+        public DateTime? DataUltimaCompra { get; set; }
+        public decimal? ValorUltimaCompra { get; set; }
+
+        public override string ToString()
+        {
+            return $"Nome: {Nome}, Data última compra: {DataUltimaCompra}";
+        }
+    }
+
+    abstract class Person
+    {
+        public string CPF { get; set; }
+        public string Nome { get; set; }
+        public DateTime DataNascimento { get; set; }
     }
 }
