@@ -4,6 +4,7 @@ using Alura_CSharpProgramming_Parte1.Parte01.Parte_03;
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_04;
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_05;
 using Alura_CSharpProgramming_Parte1.Parte01.Parte_06;
+using Alura_CSharpProgramming_Parte1.Parte01.Parte_07;
 using System;
 using System.Collections.Generic;
 
@@ -14,25 +15,6 @@ namespace Alura_CSharpProgramming_Parte1
         static IList<MenuItem> menuItems;
         static void Main(string[] args)
         {
-            
-
-            ExpressionTree.Run();
-            Console.ReadKey();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             IAulaItem itemSelecionado;
             menuItems = GetMenuItems();
 
@@ -117,14 +99,14 @@ namespace Alura_CSharpProgramming_Parte1
                 new MenuItem("Unboxing", typeof(_05_02_Unboxing)),
                 new MenuItem("Conversoes Implícitas", typeof(_06_01_ConversoesImplicitas)),
                 new MenuItem("Conversoes Explícitas", typeof(_06_02_ConversoesExplicitas)),
-                //new MenuItem("Operadores IS e AS", typeof(OperadoresISeAS)),
-                //new MenuItem("Operadores de Conversão", typeof(OperadoresDeConversao)),
-                //new MenuItem("Métodos Auxiliares de Conversão", typeof(MetodosAuxiliares)),
-                //new MenuItem("Usando Dynamic", typeof(UsandoDynamic)),
-                //new MenuItem("Conversões de Dynamic", typeof(ConversoesDeDynamic)),
-                //new MenuItem("Resolucão de Sobrecarga", typeof(ResolucaoSobrecarga)),
-                //new MenuItem("Usando ExpandObject", typeof(UsandoExpandObject)),
-                //new MenuItem("Interoperabilidade COM", typeof(InteropCOM))                
+                new MenuItem("Operadores IS e AS", typeof(_06_03_OperadoresIseAs)),
+                new MenuItem("Operadores de Conversão", typeof(_06_04_OperadoresDeConversao)),
+                new MenuItem("Métodos Auxiliares de Conversão", typeof(_06_05_MetodosAuxiliares)),
+                new MenuItem("Usando Dynamic", typeof(_07_01_UsandoDynamic)),
+                new MenuItem("Conversões de Dynamic", typeof(_07_02_ConversoesDeDynamic)),
+                new MenuItem("Resolucão de Sobrecarga", typeof(_07_03_ResolucaoSobrecarga)),
+                new MenuItem("Usando ExpandObject", typeof(_07_04_UsandExpandObject)),
+                new MenuItem("Interoperabilidade COM", typeof(_07_05_InteropCOM))                
             };
         }
     }
