@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alura_CSharpProgramming_Parte1
+namespace Alura_CSharpProgramming_Parte1e2
 {
     interface IAulaItem
     {

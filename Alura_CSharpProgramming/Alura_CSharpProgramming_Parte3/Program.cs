@@ -6,7 +6,9 @@ namespace Alura_CSharpProgramming_Parte3
     {
         static void Main(string[] args)
         {
+            _01_PropriedadeEAcessador _01 = new _01_PropriedadeEAcessador();
+            _01.Run();
             
-        }
+        }        
     }
 }

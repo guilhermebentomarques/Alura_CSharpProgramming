@@ -1,14 +1,14 @@
-﻿using Alura_CSharpProgramming_Parte1.Parte01.Parte_01;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_02;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_03;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_04;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_05;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_06;
-using Alura_CSharpProgramming_Parte1.Parte01.Parte_07;
+﻿using Alura_CSharpProgramming_Parte1e2.Parte_01;
+using Alura_CSharpProgramming_Parte1e2.Parte_02;
+using Alura_CSharpProgramming_Parte1e2.Parte_03;
+using Alura_CSharpProgramming_Parte1e2.Parte_04;
+using Alura_CSharpProgramming_Parte1e2.Parte_05;
+using Alura_CSharpProgramming_Parte1e2.Parte_06;
+using Alura_CSharpProgramming_Parte1e2.Parte_07;
 using System;
 using System.Collections.Generic;
 
-namespace Alura_CSharpProgramming_Parte1
+namespace Alura_CSharpProgramming_Parte1e2
 {
     class Program
     {
