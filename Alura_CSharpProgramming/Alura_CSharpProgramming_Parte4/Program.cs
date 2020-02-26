@@ -18,7 +18,7 @@ namespace Alura_CSharpProgramming_Parte4
             emprestimo.CalcularJuros(6000, 3);
             emprestimo.CalcularJuros(8500, 6);
             emprestimo.CalcularJuros(11500, 4);
-            //emprestimo.finalizar();
+            emprestimo.Finalizar();
 
         }
 
@@ -180,9 +180,31 @@ namespace Alura_CSharpProgramming_Parte4
 
         public void Finalizar()
         {
+#if TRIAL
+            AvaliarEmprestimo();
+#elif BASIC
             AvaliarEmprestimo();
             ProcessarEmprestimo();
             FinanciarEmprestimo();
+#elif ADVANCED
+            AvaliarEmprestimo();
+            ProcessarEmprestimo();
+#endif
+        }
+
+        private void FinanciarEmprestimo()
+        {
+            Console.WriteLine("Financiar Emprestimo");
+        }
+
+        private void ProcessarEmprestimo()
+        {
+            Console.WriteLine("Processar Emprestimo");
+        }
+
+        private void AvaliarEmprestimo()
+        {
+            Console.WriteLine("Avaliar Emprestimo");
         }
 
         private bool ValidarCodigo(string codigoContrato)
