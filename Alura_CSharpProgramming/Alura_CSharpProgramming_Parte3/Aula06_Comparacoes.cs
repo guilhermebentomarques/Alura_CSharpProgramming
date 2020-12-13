@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte3
 {
-    class _06_Comparacoes
+    class Aula06_Comparacoes
     {
         public void Run()
         {

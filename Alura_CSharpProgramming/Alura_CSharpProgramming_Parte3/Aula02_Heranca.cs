@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte3
 {
-    class _02_Heranca
+    class Aula02_Heranca
     {
         public void Run()
         {

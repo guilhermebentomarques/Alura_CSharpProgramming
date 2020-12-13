@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte3
 {
-    class _01_PropriedadeEAcessador
+    class Aula01_PropriedadeEAcessador
     {
         public void Run()
         {

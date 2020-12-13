@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte3
 {
-    class _03_ProjetarInterface
+    class Aula03_ProjetarInterface
     {
         public void Run()
         {

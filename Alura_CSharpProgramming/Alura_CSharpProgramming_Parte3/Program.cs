@@ -6,7 +6,7 @@ namespace Alura_CSharpProgramming_Parte3
     {
         static void Main(string[] args)
         {
-            _06_Comparacoes classe = new _06_Comparacoes();
+            Aula06_Comparacoes classe = new Aula06_Comparacoes();
             classe.Run();
             
         }        

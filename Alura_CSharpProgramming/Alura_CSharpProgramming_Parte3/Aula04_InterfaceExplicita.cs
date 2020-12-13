@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Alura_CSharpProgramming_Parte3
 {
-    class _04_InterfaceExplicita
+    class Aula04_InterfaceExplicita
     {
         public void Run()
         {
